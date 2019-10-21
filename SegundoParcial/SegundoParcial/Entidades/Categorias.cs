@@ -18,5 +18,9 @@ namespace SegundoParcial.Entidades
             this.CategoriaID = categoriaID;
             this.Detalle = detalle;
         }
+
+        public Categorias()
+        {
+        }
     }
 }

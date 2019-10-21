@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SegundoParcial.UI.Registro
 {
-    public partial class rCategoria : Form
+    public partial class rRegistro : Form
     {
-        public rCategoria()
+        public rRegistro()
         {
             InitializeComponent();
         }

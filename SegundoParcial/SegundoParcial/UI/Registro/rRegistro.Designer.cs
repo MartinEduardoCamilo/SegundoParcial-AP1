@@ -1,6 +1,6 @@
 ﻿namespace SegundoParcial.UI.Registro
 {
-    partial class rCategoria
+    partial class rRegistro
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(rCategoria));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(rRegistro));
             this.label1 = new System.Windows.Forms.Label();
             this.CategoriaidnumericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.Buscarbutton = new System.Windows.Forms.Button();
@@ -115,7 +115,7 @@
             this.Totalbutton.Name = "Totalbutton";
             this.Totalbutton.Size = new System.Drawing.Size(75, 35);
             this.Totalbutton.TabIndex = 7;
-            this.Totalbutton.Text = "ToTal";
+            this.Totalbutton.Text = "Total";
             this.Totalbutton.UseVisualStyleBackColor = true;
             // 
             // TotaltextBox

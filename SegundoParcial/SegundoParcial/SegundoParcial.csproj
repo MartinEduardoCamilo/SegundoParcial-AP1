@@ -74,11 +74,17 @@
     <Compile Include="UI\Consulta\cCategorias.Designer.cs">
       <DependentUpon>cCategorias.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Registro\rCategoria.cs">
+    <Compile Include="UI\Registro\rCategorias.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Registro\rCategoria.Designer.cs">
-      <DependentUpon>rCategoria.cs</DependentUpon>
+    <Compile Include="UI\Registro\rCategorias.Designer.cs">
+      <DependentUpon>rCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Registro\rRegistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Registro\rRegistro.Designer.cs">
+      <DependentUpon>rRegistro.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="MainFrorm.resx">
       <DependentUpon>MainFrorm.cs</DependentUpon>
@@ -95,8 +101,11 @@
     <EmbeddedResource Include="UI\Consulta\cCategorias.resx">
       <DependentUpon>cCategorias.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Registro\rCategoria.resx">
-      <DependentUpon>rCategoria.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Registro\rCategorias.resx">
+      <DependentUpon>rCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Registro\rRegistro.resx">
+      <DependentUpon>rRegistro.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
