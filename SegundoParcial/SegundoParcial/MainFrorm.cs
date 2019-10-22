@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SegundoParcial.UI.Consulta;
+using SegundoParcial.UI.Registro;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,27 @@ namespace SegundoParcial
         public MainFrorm()
         {
             InitializeComponent();
+        }
+
+        private void registroToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            rRegistro registro = new rRegistro();
+            registro.MdiParent = this;
+            registro.Show();
+        }
+
+        private void consultaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            cCategorias registro = new cCategorias();
+            registro.MdiParent = this;
+            registro.Show();
+        }
+
+        private void servicionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rCategorias categorias = new rCategorias();
+            categorias.MdiParent = this;
+            categorias.Show();
         }
     }
 }

@@ -33,7 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.CategoriaidnumericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.DetalletextBox = new System.Windows.Forms.TextBox();
+            this.DescripciontextBox = new System.Windows.Forms.TextBox();
             this.Buscarbutton = new System.Windows.Forms.Button();
             this.Nuevobutton = new System.Windows.Forms.Button();
             this.Guardarbutton = new System.Windows.Forms.Button();
@@ -57,9 +57,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(13, 53);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 13);
+            this.label2.Size = new System.Drawing.Size(63, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Detalle";
+            this.label2.Text = "Descripcion";
             // 
             // CategoriaidnumericUpDown
             // 
@@ -68,13 +68,13 @@
             this.CategoriaidnumericUpDown.Size = new System.Drawing.Size(163, 20);
             this.CategoriaidnumericUpDown.TabIndex = 2;
             // 
-            // DetalletextBox
+            // DescripciontextBox
             // 
-            this.DetalletextBox.Location = new System.Drawing.Point(59, 50);
-            this.DetalletextBox.Multiline = true;
-            this.DetalletextBox.Name = "DetalletextBox";
-            this.DetalletextBox.Size = new System.Drawing.Size(186, 20);
-            this.DetalletextBox.TabIndex = 3;
+            this.DescripciontextBox.Location = new System.Drawing.Point(82, 50);
+            this.DescripciontextBox.Multiline = true;
+            this.DescripciontextBox.Name = "DescripciontextBox";
+            this.DescripciontextBox.Size = new System.Drawing.Size(186, 20);
+            this.DescripciontextBox.TabIndex = 3;
             // 
             // Buscarbutton
             // 
@@ -141,7 +141,7 @@
             this.Controls.Add(this.Guardarbutton);
             this.Controls.Add(this.Nuevobutton);
             this.Controls.Add(this.Buscarbutton);
-            this.Controls.Add(this.DetalletextBox);
+            this.Controls.Add(this.DescripciontextBox);
             this.Controls.Add(this.CategoriaidnumericUpDown);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -159,7 +159,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown CategoriaidnumericUpDown;
-        private System.Windows.Forms.TextBox DetalletextBox;
+        private System.Windows.Forms.TextBox DescripciontextBox;
         private System.Windows.Forms.Button Buscarbutton;
         private System.Windows.Forms.Button Nuevobutton;
         private System.Windows.Forms.Button Guardarbutton;

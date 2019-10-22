@@ -10,7 +10,8 @@ namespace SegundoParcial.DAL
 {
     public class Contexto : DbContext
     {
-        public DbSet<Categorias> Categorias { get; set; }
+        public DbSet<Categorias> Categoria { get; set; }
+        public DbSet<Factura> Factura { get; set; }
         public Contexto() : base("ConStr")
         {
 

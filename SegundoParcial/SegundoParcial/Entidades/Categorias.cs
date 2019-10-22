@@ -10,17 +10,19 @@ namespace SegundoParcial.Entidades
     public class Categorias
     {
         [Key]
-        public int CategoriaID { get; set; }
-        public string Detalle { get; set; }
+        public int CategoriaId { get; set; }
+        public string Decripcion { get; set; }
 
-        public Categorias(int categoriaID, string detalle)
+        public Categorias(int categoriaId, string decripcion)
         {
-            this.CategoriaID = categoriaID;
-            this.Detalle = detalle;
+            CategoriaId = categoriaId;
+            Decripcion = decripcion;
         }
 
         public Categorias()
         {
+            CategoriaId = 0;
+            Decripcion = string.Empty;
         }
     }
 }
