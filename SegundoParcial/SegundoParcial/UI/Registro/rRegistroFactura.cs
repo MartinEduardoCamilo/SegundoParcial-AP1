@@ -12,11 +12,11 @@ using System.Windows.Forms;
 
 namespace SegundoParcial.UI.Registro
 {
-    public partial class rRegistro : Form
+    public partial class rRegistroFactura : Form
     {
         public List<CategoriaDetalle> Detalle { get; set; }
        
-        public rRegistro()
+        public rRegistroFactura()
         {
             InitializeComponent();
             this.Detalle = new List<CategoriaDetalle>();

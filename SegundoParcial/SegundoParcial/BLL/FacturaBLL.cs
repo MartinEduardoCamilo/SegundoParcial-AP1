@@ -16,7 +16,7 @@ namespace SegundoParcial.BLL
 
             foreach (var item in Anterior.categoriaDetalle)
             {
-                if (!factura.categoriaDetalle.Exists(f => f.CategoriaId == item.CategoriaId))
+                if (!factura.categoriaDetalle.Exists(p => p.CategoriaId == item.CategoriaId))
                     base.db.Entry(item).State = EntityState.Deleted;
             }
 

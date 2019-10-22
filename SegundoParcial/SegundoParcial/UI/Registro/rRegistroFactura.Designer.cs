@@ -1,6 +1,6 @@
 ﻿namespace SegundoParcial.UI.Registro
 {
-    partial class rRegistro
+    partial class rRegistroFactura
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(rRegistro));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(rRegistroFactura));
             this.label1 = new System.Windows.Forms.Label();
             this.CategoriaidnumericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.Buscarbutton = new System.Windows.Forms.Button();
@@ -279,7 +279,7 @@
             this.EstudiantetextBox.Size = new System.Drawing.Size(315, 20);
             this.EstudiantetextBox.TabIndex = 23;
             // 
-            // rRegistro
+            // rRegistroFactura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -307,8 +307,8 @@
             this.Controls.Add(this.Buscarbutton);
             this.Controls.Add(this.CategoriaidnumericUpDown1);
             this.Controls.Add(this.label1);
-            this.Name = "rRegistro";
-            this.Text = "rCategoria";
+            this.Name = "rRegistroFactura";
+            this.Text = "Registro de Factura";
             this.Load += new System.EventHandler(this.rRegistro_Load);
             ((System.ComponentModel.ISupportInitialize)(this.CategoriaidnumericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DetalledataGridView)).EndInit();
